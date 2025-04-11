@@ -1,0 +1,17 @@
+.descricao-produto {
+    background-color: orange;
+    margin: 15px;
+    padding: 10px;
+    color: red;
+    border: 5px solid blueviolet;
+    width: 500px;
+}
+
+.promocao {
+    border: 5px solid green;
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-align: center;
+}

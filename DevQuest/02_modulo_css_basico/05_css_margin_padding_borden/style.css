@@ -1,0 +1,51 @@
+/* 
+Colocando cada valor em todos os lados
+
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px; 
+*/
+    
+/* 
+Modo encurtado no código
+
+cima, baixo, direita, esquyerda
+margin: 30px 15px; */
+
+/*
+Se tando um valor para todos os lados de uma vez
+
+margin: 30px
+
+*/
+
+/*TOP, LEFT, BOTTOM, RIGHT - SENTIDO HORARIO*/
+
+/*
+
+padding - espaçamento dentro do elemento
+padding: 40px 20px
+*/
+
+p {
+    margin: 30px 15px;
+    padding: 20px 20px;
+    background-color: aqua;
+    /* border-style: solid;
+    border-width: 20px;
+    border-color: red; */
+
+    border: 20px solid blueviolet
+}
+
+h1 {
+    border-style: solid;
+    border-width: 20px;
+    /* border-top-color: red;
+    border-left-color: blue;
+    border-right-color: yellowgreen;
+    border-bottom-color: purple; */
+     
+    border-color: yellowgreen green coral blueviolet;
+}

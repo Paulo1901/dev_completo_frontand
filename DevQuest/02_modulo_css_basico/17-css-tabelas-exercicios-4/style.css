@@ -1,0 +1,37 @@
+.moda{
+    width: 300px;
+    height: 100px;
+}
+
+.cabecalho_moda{
+    background-color: #BB86FC;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.corpo_prod{
+    background-color: #424250;
+    font-size: 19;
+    color: white;
+    text-align: center;
+}
+
+.Casa{
+    width: 300px;
+    height: 100px;
+}
+
+.cabecalho_casa{
+    background-color: #00C4B4;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.corpo_casa{
+    font-size: 19px;
+    background-color: #424250;
+    color: white;
+    text-align: center;
+}

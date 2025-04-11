@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+p{
+    margin: 20px;
+    padding: 10px;
+
+    border: 10px solid green;
+
+    width: 400px;
+    height: 250px;
+
+    background-color: aqua;
+
+    text-align: left;
+}

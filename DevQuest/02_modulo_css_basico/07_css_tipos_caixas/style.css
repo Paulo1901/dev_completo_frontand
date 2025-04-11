@@ -1,0 +1,17 @@
+/*
+
+Display: block ja é por padão
+entre tag p, e h1,h2,h3,h4,h5,h6
+div, podendo ser alterado sua propriedade para display: inline
+
+*/
+
+span{
+    color: blueviolet;
+    /* display: block; */
+
+    width: 150px;
+    height: 150px;
+
+    background-color: cadetblue;
+}
