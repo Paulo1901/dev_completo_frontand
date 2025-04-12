@@ -1,0 +1,12 @@
+/*Aqui esta a estrutura para se colocar uma fone 
+personalizada no seu code*/
+@font-face {
+    font-family: 'anthonio';
+    src: url(font/AnthonioScript.ttf);
+}
+
+p{
+    font-family: anthonio, Arial;
+    font-size: 47px;
+    font-weight: 300;
+}
