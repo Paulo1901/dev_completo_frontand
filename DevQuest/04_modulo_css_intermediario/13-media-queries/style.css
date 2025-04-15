@@ -40,3 +40,42 @@ main p {
 .image img {
     width: 100%;
 }
+
+/*Media queries*/
+
+/*dispositivo entre pequenos (celulares em posição porta retrato, menores do que 576px)*/
+@media (max-width: 570px) {
+    
+    .cabecalho {
+        text-align: center;
+    }
+    
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+
+}
+
+
+
+/*dispositivos pequenos (celulares em ppsição paiasagem, menos de 768px*/
+/* @media (max-width: 768px) {
+
+} */
+
+/*dispositivos médios (tabletes, menores de 992px)*/
+/* @media (max-width: 992px) {
+
+} */
+
+/*dispositivos grandes (desktops, menos de 1200px*/
+/* @media (max-width: 1200px) {
+
+} */
+
+/*dispositivos extra grandes (desktops grandes)*/
+/*1200px ou mais, não tem brakpoints*/
