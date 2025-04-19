@@ -11,8 +11,23 @@
 }
 
 @media (max-width: 767px) {
+    .contato{
+        background-image: none;
+        background-color: #D3AE71;
+    }
 
-}
+    .contato .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .contato h2{
+        margin-bottom: 46px;
+    }
+} 
 
 @media (max-width: 720px) {
     .ladrilho .grande,
@@ -23,6 +38,37 @@
     .ladrilho .pequeno,
     .ladrilho .pequeno.grao {
         width: 50%
+    }
+
+    .rodape {
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+
+    .rodape .logo {
+        display: block;
+        margin-bottom: 122px;
+
+    }
+
+    .rodape ul{
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape ul li a{
+        font-size: 2rem;
+    }
+
+    .rodape .redes-sociais{
+        float: none;
+        margin-bottom: 28px;
     }
 }
 
@@ -60,11 +106,10 @@
     }
 
     @media (max-width: 375px) {
-    .ladrilho .pequeno,
-    .ladrilho .grande,
-    .ladrilho .pequeno.grao {
-        width: 100%
-    }
+        .ladrilho .pequeno,
+        .ladrilho .pequeno.grao {
+            width: 100%
+        }
     }
     
 }
