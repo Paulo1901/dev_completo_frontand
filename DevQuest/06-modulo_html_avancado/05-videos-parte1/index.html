@@ -6,10 +6,22 @@
     <title>Videos parte 1</title>
 </head>
 <body>
-    <h1>Videos parte 1</h1>
+    <h1>Vídeos</h1>
 
-    <video src="05-video/videos/video.mp4" width="400px" controls poster="05-video/images/thumb.jpg">
-
+    <!-- <video src="05-video/videos/video.mp4" width="400px" controls poster="05-video/images/thumb.jpg"></video> -->
+    
+    <!--formas não aconselhada utilizar pelo peso do video deixando ele lento e inviavel para carregar no servidor-->
+    <video controls width="300px">
+        <source src="05-video/videos/video.mp4" type="video/mp4">
+        <source src="05-video/videos/video.ogg" type="video/ogg">
+        <source src="05-video/videos/video.webm" type="video/webm">
+        <p>Este navegador não tem suporte a tag vídeo</p>
     </video>
+
+    <!--Forma a ser utilizada pelos desemvolvedores-->
+    <!--subir os videos a ser utilizados para um servidor os pesdar os videos-->
+
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/W2m4XB1Lqpc?si=mQDForhhaNDq3tNZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
 </body>
 </html>
