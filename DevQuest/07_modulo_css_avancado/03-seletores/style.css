@@ -1,0 +1,40 @@
+h1 {
+    color: green;
+}
+
+.paragrafo {
+    color: blue;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+p, span {
+    font-size: 30px;
+    color: coral; 
+}
+
+.sobre .texto {
+    color: blueviolet;
+}
+
+div > p{
+    color: #069;
+}
+
+div + p {
+    color: red;
+}
+
+a[target=_blank]{
+    color: brown;
+}
