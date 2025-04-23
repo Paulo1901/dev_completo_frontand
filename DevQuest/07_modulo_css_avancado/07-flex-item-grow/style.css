@@ -33,3 +33,19 @@
 .basis-300 {
     flex-basis: 300px;
 }
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.shrink .item{
+    width: 200px;
+}
+
+.wrape {
+    flex-wrap: wrap;
+}
